@@ -172,7 +172,7 @@
 
               <a href="https://hearlink.online/" class="btn btn-primary" target="_blank">Explore Now</a>
 
-              <a href="#" class="btn btn-outline">Contact Us</a>
+              <a href="#team" class="btn btn-outline">Contact Us</a>
 
             </div>
 
@@ -583,7 +583,7 @@
         <div class="vids">
           <div class="video-container">
             <p>HearLink Pitch Video</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-0uZLORnfd0?si=XVYE8RfMTW2AF8yn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-0uZLORnfd0?si=XVYE8RfMTW2AF8yn" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div class="video-container">
             <p>HearLink Demo Video</p>
@@ -604,10 +604,10 @@
         <div class="container">
 
           <h2 class="h2 section-title">
-            Join our community by using our services and grow your business.
+            Join our community by using our services .
           </h2>
 
-          <a href="#" class="btn btn-primary">Try it For Free</a>
+          <a href="https://hearlink.online/" class="btn btn-primary" target="_blank">Try it For Free</a>
 
         </div>
       </section>
@@ -636,52 +636,18 @@
           &copy; 2024 HearLink. <br> All rights reserved.
         </p>
 
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
+       
 
       </div>
 
-      <ul class="footer-list">
+      <ul id="footer-list" class="footer-list">
 
         <li>
           <p class="h4 footer-list-title">Get in Touch</p>
         </li>
 
         <li>
-          <address class="footer-text">
-            Moonshine St. 14/05 Light City, London, United Kingdom
-          </address>
+          
         </li>
 
         <li>
@@ -694,46 +660,20 @@
 
       </ul>
 
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Learn More</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Our Story</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Projects</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-
-      </ul>
-
+      
+      <script src="./assets/js/script.js"></script>
       <div class="footer-list">
 
-        <p class="h4 footer-list-title">Our Newsletter</p>
+        <p class="h4 footer-list-title">Connect with us</p>
 
         <p class="footer-text">
-          Subscribe to our newsletter to get our news & deals delivered to you.
+          Send us a quick message and connect with us.
         </p>
 
-        <form action="" class="input-wrapper">
-          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+        <form class="input-wrapper">
+          <input id="message"  placeholder="Quick Message" required class="input-field">
 
-          <button type="submit" class="submit-btn">Join</button>
+          <div class="submit-btn" onclick="sendEmail()">Join</div>
         </form>
 
       </div>
@@ -748,7 +688,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  
 
   <!-- 
     - ionicon

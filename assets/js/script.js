@@ -11,6 +11,13 @@ const addEventOnElements = function (elements, eventType, callback) {
     elements[i].addEventListener(eventType, callback);
   }
 }
+function sendEmail() {
+  const inputField = document.getElementById("message");
+    const emailLink = "mailto:hearlinkvc@gmail.com" +
+    "?subject=" + encodeURIComponent("Quick Message") +
+    "&body=" + encodeURIComponent(inputField.value);
+  window.location.href = emailLink;
+}
 
 
 

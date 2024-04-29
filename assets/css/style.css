@@ -970,6 +970,26 @@ body.nav-active { overflow: hidden; }
   .feature-banner { order: 1; }
 
 }
+.submit-btn{
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.footer-brand{
+  margin-right: 25%;
+  width: 10%;
+}
+#footer-list{
+  margin-right: 15%;
+}
+.footer-text{
+  width: 200px;
+}
+.footer-list{
+  min-width: 300px;
+}
+
 
 
 
@@ -1068,7 +1088,7 @@ body.nav-active { overflow: hidden; }
   }
 
   .vidsframe{
-    padding: 120px;
+    padding: 50px;
     text-align: center;
     
   }
@@ -1078,7 +1098,7 @@ body.nav-active { overflow: hidden; }
   }
   
   .video-container {
-    margin: 10px 100px; /* Adjust margin as needed */
+    margin: 10px 50px; /* Adjust margin as needed */
   }
 
 
