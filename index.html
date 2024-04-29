@@ -9,8 +9,8 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Adex</title>
-  <meta name="title" content="Adex">
+  <title>HearLink</title>
+  <meta name="title" content="HearLink">
   <meta name="description" content="This is a business agency html template made by codewithsadee">
 
   <!-- 
@@ -51,17 +51,17 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
-        <img src="./assets/images/hearlink text.png" width="234" height="24" alt="Adex home" class="logo-light">
+      <a href="#home" class="logo">
+        <img src="./assets/images/hearlink text.png" width="234" height="24" alt="HearLink home" class="logo-light">
 
-        <img src="./assets/images/text 2.png" width="234" height="24" alt="Adex home" class="logo-dark">
+        <img src="./assets/images/text 2.png" width="234" height="24" alt="HearLink home" class="logo-dark">
       </a>
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
+            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="HearLink home">
           </a>
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -72,19 +72,15 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">Home</a>
+            <a href="#home" class="navbar-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">About</a>
+            <a href="#about" class="navbar-link">About</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Projects</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Blog</a>
+            <a href="#whyus" class="navbar-link">Why US</a>
           </li>
 
           <li>
@@ -135,7 +131,7 @@
 
       </nav>
 
-      <a href="https://hearlink.online/" class="btn btn-primary">HearLink</a>
+      <a href="https://hearlink.online/" class="btn btn-primary" target="_blank">HearLink</a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -157,21 +153,21 @@
         - #HERO
       -->
 
-      <section class="section hero has-bg-image" aria-label="home"
+      <section id="home" class="section hero has-bg-image" aria-label="home"
         style="background-image: url('./assets/images/hero-bg.jpg')">
         <div class="container">
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+            <h1 class="h1 hero-title">Facilitating inclusion and connection between deaf individuals and mainstream society.</h1>
 
             <p class="hero-text">
-              We’re a creative company that focuses on establishing long-term relationships with customers.
+              A Video Chat Platform where Deaf People can communicate with Healthy People.
             </p>
 
             <div class="btn-wrapper">
 
-              <a href="#" class="btn btn-primary">Explore Now</a>
+              <a href="https://hearlink.online/" class="btn btn-primary" target="_blank">Explore Now</a>
 
               <a href="#" class="btn btn-outline">Contact Us</a>
 
@@ -200,7 +196,7 @@
                         class="img-cover">
                     </figure>
 
-                    <button class="play-btn" aria-label="play adex intro">
+                    <button class="play-btn" aria-label="play HearLink intro">
                       <ion-icon name="play" aria-hidden="true"></ion-icon>
                     </button>
                   </div>
@@ -239,14 +235,19 @@
         - #SERVICE
       -->
 
-      <section class="section service" aria-labelledby="service-label">
+      <section id="about" class="section service" aria-labelledby="service-label">
         <div class="container">
 
-          <p class="section-subtitle" id="service-label">What We Do?</p>
+          <p class="section-subtitle" id="service-label">What is HearLink?</p>
 
           <h2 class="h2 section-title">
             The service we offer is specifically designed to meet your needs.
           </h2>
+          <p>HearLink is a groundbreaking platform revolutionizing video communication, particularly for 
+            individuals with hearing impairments. It offers real-time sign language translation and speech 
+            recognition capabilities, ensuring inclusivity and accessibility in digital interactions. With 
+            seamless integration into everyday communication, HearLink empowers users to 
+            engage meaningfully in conversations, fostering connections and bridging communication gaps like never before.</p>
 
           <ul class="grid-list">
 
@@ -254,14 +255,13 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="hand-right-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">24/7 Support</h3>
+                <h3 class="h4 card-title">Sign Langugae Translation</h3>
 
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  Translate deaf user's sign language to a text.
                 </p>
 
                 <a href="#" class="btn-text">
@@ -277,14 +277,36 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="mic-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Secure Payments</h3>
+                <h3 class="h4 card-title">Speech <br>Identification</h3>
 
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  Identiy users spoken words and copy it to clipboard.
+                  
+                </p>
+                
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Text to Sign <br>Translation</h3>
+
+                <p class="card-text">
+                  Translate the texts to sign for deaf users.
                 </p>
 
                 <a href="#" class="btn-text">
@@ -300,37 +322,13 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="videocam-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Daily Updates</h3>
+                <h3 class="h4 card-title">Video<br> Chat</h3>
 
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Market Research</h3>
-
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  Realtime Video chat facility with other meeting options.
                 </p>
 
                 <a href="#" class="btn-text">
@@ -355,7 +353,7 @@
         - #ABOUT
       -->
 
-      <section class="about" aria-labelledby="about-label">
+      <section id="whyus" class="about" aria-labelledby="about-label">
         <div class="container">
 
           <figure class="about-banner">
@@ -380,14 +378,14 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Professional Design</spna>
+                      <spna class="span h5">Cutting-Edge Technology</spna>
                     </button>
                   </h3>
 
                   <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
+                    Harnessing the power of cutting-edge technology, we develop innovative solutions tailored to meet 
+                    the unique needs of our clients. Our advanced systems streamline processes, boost efficiency, and 
+                    drive success in today's dynamic business landscape.
                   </p>
 
                 </div>
@@ -400,14 +398,14 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Top-Notch Support</spna>
+                      <spna class="span h5">Client-Centric Approach</spna>
                     </button>
                   </h3>
 
                   <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
+                    At the heart of our mission is a commitment to our clients. We prioritize their needs, aspirations, 
+                    and goals, working closely with them to deliver solutions that exceed expectations. Our client-centric approach 
+                    ensures a personalized experience and fosters long-term partnerships built on trust and mutual success.
                   </p>
 
                 </div>
@@ -420,14 +418,14 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Exclusive Assets</spna>
+                      <spna class="span h5">Seamless Integration</spna>
                     </button>
                   </h3>
 
                   <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
+                    Our solutions seamlessly integrate into existing workflows, minimizing disruptions and maximizing 
+                    productivity. With user-friendly interfaces and intuitive functionalities, 
+                    our clients can easily adapt to our systems, unlocking new opportunities and driving growth.
                   </p>
 
                 </div>
@@ -465,69 +463,16 @@
             </h2>
 
             <p class="section-text">
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.
+              At HearLink, we prioritize your financial peace of mind, offering intuitive solutions to 
+              streamline your spending and provide you with ultimate control over your finances. Our 
+              platform empowers you to effortlessly manage your expenses, track your budget, and make 
+              informed financial decisions with confidence. With user-friendly features and comprehensive 
+              tools, HearLink ensures that your financial journey is stress-free, allowing you to focus on
+               what truly matters in your life. Say goodbye to financial worries and embrace a future of 
+               financial freedom with HearLink by your side.
             </p>
 
-            <ul class="feature-list">
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Aenean quam ornare. Curabitur blandit.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Nullam quis risus eget urna mollis ornare.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Etiam porta euismod malesuada mollis.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Vivamus sagittis lacus vel augue rutrum.
-                  </span>
-
-                </div>
-              </li>
-
-            </ul>
+            
 
           </div>
 
@@ -538,52 +483,7 @@
 
 
 
-      <!-- 
-        - #STATS
-      -->
-
-      <section class="stats" aria-label="our stats">
-        <div class="container">
-
-          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
-
-            <li>
-              <p class="card-text">
-                <span class="h1">7518</span>
-
-                <spna class="span">Completed Projects</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">3472</span>
-
-                <spna class="span">Happy Customers</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">2184</span>
-
-                <spna class="span">Expert Employees</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">4523</span>
-
-                <spna class="span">Awards Won</spna>
-              </p>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
+      
 
 
 
@@ -675,6 +575,17 @@
         </div>
       </section>
 
+      <section id="video" class="vidsframe">
+        <p class="section-subtitle" id="project-label">Watch</p>
+        <div class="vids">
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-0uZLORnfd0?si=XVYE8RfMTW2AF8yn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZutB0khK2ls?si=Vuk1kYYTn5bVnY3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -712,11 +623,11 @@
       <div class="footer-brand">
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
+          <img src="./assets/images/Logo short light.png" width="74" height="24" alt="HearLink home">
         </a>
 
         <p class="footer-text">
-          &copy; 2022 codewithsadee. <br> All rights reserved.
+          &copy; 2024 HearLink. <br> All rights reserved.
         </p>
 
         <ul class="social-list">
@@ -768,11 +679,11 @@
         </li>
 
         <li>
-          <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
+          <a href="mailto:hearlinkvc@gmail.com" class="footer-link">hearlinkvc@gmail.com</a>
         </li>
 
         <li>
-          <a href="tel:001234567890" class="footer-link">00 (123) 456 78 90</a>
+          <a href="tel:0767123972" class="footer-link">076 712 3972</a>
         </li>
 
       </ul>

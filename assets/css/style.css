@@ -428,6 +428,7 @@ body.nav-active { overflow: hidden; }
   border-radius: var(--radius-circle);
   transition: var(--transition-1);
   animation: pulse 2s ease infinite;
+  display: none;
 }
 
 .hero-card .play-btn:is(:hover, :focus-visible) { color: var(--violet-blue-crayola); }
@@ -1064,6 +1065,20 @@ body.nav-active { overflow: hidden; }
   .project .section-title {
     max-width: 32ch;
     margin-inline: auto;
+  }
+
+  .vidsframe{
+    padding: 120px;
+    text-align: center;
+    
+  }
+  .vids {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-container {
+    margin: 10px 100px; /* Adjust margin as needed */
   }
 
 
