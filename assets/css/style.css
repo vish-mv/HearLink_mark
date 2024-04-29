@@ -989,6 +989,19 @@ body.nav-active { overflow: hidden; }
     margin-inline: auto;
   }
 
+  .vidsframe{
+    padding: 120px;
+    
+  }
+  .vids {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-container {
+    margin: 10px 100px; /* Adjust margin as needed */
+  }
+
 
 
   /**
