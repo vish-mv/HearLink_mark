@@ -991,6 +991,7 @@ body.nav-active { overflow: hidden; }
 
   .vidsframe{
     padding: 120px;
+    text-align: center;
     
   }
   .vids {
